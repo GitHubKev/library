@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(65, 65, 65);
+}
+h1{
+    text-align: center;
+}
+.new-book-button{
+    background-color: green;
+    margin: 0 auto;
+    display: block;
+    font-size: 30px;
+    padding: 1%;
+    margin-bottom: 5%;
+}
+.book-form-container{
+    display: none;
+    position: fixed;
+    border: 3px solid black;
+    margin: 0 auto;
+}
+.book-form{
+    max-width: 300px;
+    padding: 10px;
+    background-color: darkgray;
+}
+.submit-btn{
+    background-color: green;
+    margin: 3%;
+    display: inline-block;
+}
+.cancel-btn{
+    display: inline-block;
+    background-color: red;
+    margin: 3%;
+}
+
+.form-input{
+    display: inline-block;
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 12px 0;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding in columns */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #696969;
+  }
+  
+  /* Responsive columns - one column layout (vertical) on small screens */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
